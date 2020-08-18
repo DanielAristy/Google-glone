@@ -75,3 +75,21 @@ main {
 .main-logo img {
   width: 320px;
 }
+
+.main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.main-input-container {
+  width: 525px;
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+}
+
+.main-input-container input {
+  width: 480px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
