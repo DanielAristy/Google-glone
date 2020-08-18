@@ -1,6 +1,9 @@
+/*Globales */
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 header {
@@ -8,4 +11,40 @@ header {
   height: 60px;
   display: flex;
   justify-content: flex-end;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Header*/
+
+.header-right-nav {
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right-nav ul {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.header-right-nav a {
+  color: black;
+  padding-right: 20px;
+}
+
+.foto {
+  border-radius: 50%;
 }
