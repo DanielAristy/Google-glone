@@ -58,3 +58,20 @@ a {
   border-radius: 50%;
   margin-left: 10px;
 }
+
+/*Mian*/
+
+main {
+  margin-top: 150px;
+  text-align: center; /*Alinear elementos en el centro*/
+}
+
+.main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.main-logo img {
+  width: 320px;
+}
