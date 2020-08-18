@@ -140,6 +140,10 @@ main {
   color: #222;
 }
 
+.main-description {
+  margin-bottom: 100px;
+}
+
 .main-description a {
   color: black;
   padding: 0 3px;
@@ -147,4 +151,29 @@ main {
 
 .main-description a:hover {
   text-decoration: underline;
+}
+
+.footer {
+  background: #f2f2f2;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  padding-left: 27px;
+  color: black;
+}
+
+.footer-left {
+  display: inherit;
+}
+.footer-right {
+  display: inherit;
+  margin: 0 20px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #333;
 }
